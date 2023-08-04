@@ -16,7 +16,7 @@ const LoginPopup = ({ onClose }) => {
         <div className="login-popup-overlay">
             <div className="login-popup">
                 <span><img src={logo} alt="logo"></img></span>
-                <form>
+                <form className="login-form">
                     <label>
                         <input className="inpt1" type="email" placeholder="Email" />
                     </label>

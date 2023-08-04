@@ -27,12 +27,6 @@ ul, li, p, h1, h2, h3, h4 {
   padding: 0;
 }
 
-/* .page-title {
-  font-size: 1em;
-  color: var(--heading-color);
-  display: inline-block;
-} */
-
 .btn {
   background: none;
   border: 2px solid var(--primary-color);

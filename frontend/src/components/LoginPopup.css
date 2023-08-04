@@ -1,4 +1,5 @@
 .login-popup-overlay {
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
@@ -18,5 +19,102 @@
     position: relative;
     z-index: 1;
   }
+  /* form css */
   
-  
+  /* .frm{
+    display: block;
+    text-align: center;
+    margin-left: 45%;
+    margin-right: 50%;
+    margin-bottom: 50vh;
+    height: 10vh;
+    width: 20vw;
+    align-items:center;
+}
+
+.inpt1{
+    width: 19vw;
+    height: 3.55vh;
+    padding: 4px;
+    border-radius: 8px;
+}
+.inpt2{
+    margin-top: 10px;
+    width: 19vw;
+    height: 3.55vh;
+    padding: 4px;
+    border-radius: 8px;
+}
+.ggle{
+    height: 3vh;
+    position: relative;
+    top: .6vh;
+    padding: auto;
+    cursor: pointer;
+}
+.form-submit-button {
+    background: #bc0139;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+    margin-top: 8vh;
+    height: 5vh;
+    width: 10vw;
+}
+
+.form-submit-button:hover {
+	background: #044172;
+    cursor: pointer;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+}
+.cpt{
+    height: 4vh;
+    width: 7vw;
+}
+.wcpt1{
+    display: block-inline;
+    border: 1px solid black;
+    padding: auto;
+    padding-bottom: 5px;
+    width: 5vw;
+    height: 3vh;
+    position: relative;
+    float: left;
+    margin-left: 25px;
+}
+.wcpt2{
+    float: right;
+}
+.cptdiv{
+    padding: auto;
+} */
+
+
+.login-form {
+    max-width: 360px;
+    /* margin: 60px auto; */
+    padding: 0 70px;
+}
+
+.login-form label {
+    display: block;
+    margin: 30px auto;
+}
+
+.login-form span {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.login-form input {
+    padding: 8px 6px;
+    font-size: 1em;
+    color: #777;
+    width: 100%;
+}
