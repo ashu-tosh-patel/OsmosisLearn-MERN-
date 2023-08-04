@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-
+import './Body.css';
 
 import List from './List'
 const Body = () => {
@@ -22,11 +22,11 @@ const Body = () => {
 
   return (
     <>
-      <h2>First part</h2>
+      <h3 className="sec">First Part</h3>
       <List cards={data} />
-      <h2>First part</h2>
+      <h3 className="sec">Second Part</h3>
       <List cards={data} />
-      <h2>First part</h2>
+      <h3 className="sec">Third part</h3>
       <List cards={data} />
     </>
   )
